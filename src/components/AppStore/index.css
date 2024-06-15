@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-store-heading {
+  font-family: 'Bree Serif';
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-store-heading {
+    font-size: 30px;
+  }
+}
+.search-img-con {
+  display: flex;
+  align-items: center;
+  border: 2px solid #7b8794;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+@media screen and (max-width: 768px) {
+  .search {
+    font-size: 15px;
+  }
+}
+.search-img {
+  width: 20px;
+  height: 20px;
+}
+
+.tab-ul-con {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.app-ul-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+  width: 80%;
+  max-width: 800px;
+}
